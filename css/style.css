@@ -1,0 +1,389 @@
+
+body,html{
+
+    height: 100%;
+}
+#form-login-div {
+    margin-top: 100px;
+}
+
+body {
+    background: #d1e6e3;
+}
+
+#pop-up {
+    background: #00bcd4;
+    color: white;
+    position: fixed;
+    left: 10;
+    bottom: 10;
+    z-index: 60;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 4px;
+    margin-right: 10px;
+    max-width: 400px;
+    visibility: hidden;
+    transition: .2s;
+    opacity: 0;
+    
+
+
+}
+
+#success {
+    background:  rgba(88, 197, 115, 0.938);
+    color: white;
+    position: fixed;
+    right: 40;
+    top: 40;
+    z-index: 20;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 4px;
+    margin-right: 10px;
+    max-width: 400px;
+    /* visibility: hidden; */
+    transition: .5s;
+    opacity: 0;
+
+
+}
+
+
+#pop-up .btn {
+    background: transparent;
+    border: 0;
+    color: #f9254a;
+
+
+}
+
+.active{
+    background: rgba(88, 197, 115, 0.938);
+    font-weight: bold;
+}
+
+#side-nav-links a .fa{
+    color:rgb(221, 221, 221);
+    margin-right: 7px;
+    margin-left: 7px;
+    font-size: 18px;
+   
+}
+
+#side-nav-links a{
+    display: block;
+    padding: 15px 5px;
+    text-decoration: none;
+    color: white;
+
+
+}
+
+#side-nav-links a:hover{
+    background: black;
+    color: white;
+}
+
+#sidenav{
+    position: fixed;
+    background: #f3f1f1;
+    left: 0;
+    z-index: 10;
+    height: 100%;
+    box-shadow: 1px 2px 2px 1px #ccc;
+    padding: 0;
+    background: #2a2a3cf2;
+    width: 19%;
+   
+
+}
+
+#sidenav #head{
+    padding: 10px 0px;
+    background: rgba(0, 0, 80, 0.637);
+    color: white;
+    height: 50px;
+}
+
+#main-div{
+    float: right;
+   
+    height: auto;
+    padding: 10;
+    background: rgba(255, 255, 255, 0.527);
+    width: 81%;
+}
+
+fieldset{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 10px 0px;
+}
+legend{
+    font-size: 15px;
+    border: 5px solid #ccc;
+    min-width:40%;
+    max-width: 20%;
+    padding: 5px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+#main-div form{
+   
+    padding: 10px;
+}
+
+#suggestion{
+    background:white;
+    box-shadow: 1px 1px 1px 1px #9e9e9e;
+    overflow: auto;
+    max-height: 350px;
+    z-index: 20;
+    position: fixed;
+    width: 700px;
+    visibility: hidden;
+    margin-top: 35px;
+
+}
+
+#suggestion a{
+    display:  block;
+    padding: 10px;
+    text-decoration: none;
+
+
+}
+
+#suggestion span{
+    padding: 10px;
+    display: block;
+}
+
+#suggestion a:hover{
+    background: rgba(191, 255, 149, 0.822);
+}
+
+#dialog{
+    position: fixed;
+    z-index: 50;
+    background: rgba(0, 0, 0, 0.579);
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+    overflow: auto;
+}
+
+#dialog-content{
+    background: white;
+    margin-top: 0;
+    transition: .1s;
+    border-radius: 4px;
+    box-shadow: 1px 1px 2px 2px #5f5d5d;
+    margin-bottom: 100px;
+}
+
+#dialog-content .btn{
+    margin-right: 20px;
+
+}
+
+#panel1{
+    background:  rgba(88, 197, 115, 0.938);
+    color: white;
+}
+
+#panel2{
+    background: #cc4300;
+    color: white;
+}
+
+#panel3{
+    background: #560690;
+    color: white;
+}
+
+#panel4{
+    background: #d6439a;
+    color: white;
+}
+
+#main-div .panel{
+    padding: 5px;
+    border-radius: 0;
+    height: 150px;
+
+}
+.panel .fa{
+    border: 10px solid transparent;
+    border-radius: 10px;
+    margin-left: -15px;
+    padding: 10px;
+    margin-top: 0px;
+}
+.panel .big{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.panel .big2{
+    font-size: 15px;
+}
+
+#main{
+    margin:50px 0px;
+    
+}
+
+#sort-ctrl .form-control{
+    background: rgba(255, 255, 255, 0.5);
+    padding: 2px;
+    right: 10;
+    box-shadow: 1px 1px 2px 2px rgb(228, 228, 228);
+    border-radius: 4px;
+    max-height: 70px;
+    margin-bottom: 30px;
+}
+
+#query{
+    position: fixed;
+    z-index: 20;
+    width: 512px;
+    background: rgb(243, 243, 243);
+  
+}
+
+.table{
+    background: white;
+}
+
+.navbar{
+    position: sticky;
+    width: 100%;
+    z-index: 10;
+    background: rgb(255, 255, 255);
+    
+}
+
+#register-student-form{
+    background: white;
+    padding: 20px;
+}
+
+.table th{
+    background: #eee;
+}
+
+.form-control{
+    height: 45px;
+    border-radius: 0px;
+}
+
+#register-student-form  .btn,#dialog-content-form  .btn,#edit-form  .btn, #sort-student-form  .btn,#update-school-form  .btn,#add-admin-form  .btn{
+    height: 45px;
+    border-radius: 0px;
+    letter-spacing: 1px;
+    transition: .5s;
+}
+
+#register-student-form .btn:hover,#dialog-content-form  .btn:hover,#edit-form  .btn:hover,#sort-student-form  .btn:hover,#update-school-form  .btn:hover,#add-admin-form  .btn:hover{
+   
+    letter-spacing: 2px;
+    background: transparent;
+    color:black;
+}
+
+#search-form .form-control{
+    width: 700px;
+    
+}
+
+#collapse1{
+    background: #ccc;
+ 
+    margin: 20px 0px;
+}
+
+#collapse1 h4{
+    
+    padding: 10px;
+    
+}
+
+#collapse1:hover{
+    background: #5f5d5d;
+    color: white;
+
+  
+}
+#collapse1 h4:hover{
+   
+    cursor: pointer;
+}
+
+#collapse-content1{
+    background: white;
+    padding: 10px;
+    display: block;
+
+}
+
+#collapse1:hover #collapse-content1{
+
+    color: black;
+}
+
+
+#collapse2{
+    background: #ccc;
+ 
+    margin: 20px 0px;
+}
+
+#collapse2 h4{
+    
+    padding: 10px;
+    
+}
+
+#collapse2:hover{
+    background: #5f5d5d;
+    color: white;
+   
+}
+
+#collapse2 h4:hover{
+   
+    cursor: pointer;
+}
+
+#collapse-content2{
+    background: white;
+    padding: 10px;
+    display: none;
+}
+
+#collapse2:hover #collapse-content2{
+
+    color: black;
+}
+
+
+.pay-fee-div{
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+#search-student-result{
+    
+    padding: 10px;
+}
+
+.pay-fee-div-invalid{
+    pointer-events: none;
+    opacity: 0.5;
+}
